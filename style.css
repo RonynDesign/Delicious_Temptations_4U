@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    width: 100vw;
+} */
+
+header{
+    height: 12vh;
+    width: 100%;
+    background-color: #F3DBDE;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+}
+#icon {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header img{
+    height: 70px;
+    width: 70px;
+    
+}
+
+header ul{
+    display: flex;
+    flex: 4;
+    justify-content: right;
+    padding-right: 4vw;
+    gap: 4vw;
+}
+header ul li{
+    list-style: none;
+}
