@@ -1,14 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* body{
     width: 100vw;
 } */
 
-header{
+header {
     height: 12vh;
     width: 100%;
     background-color: #F3DBDE;
@@ -17,27 +18,118 @@ header{
     align-items: center;
 
 }
+
 #icon {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-header img{
+header img {
     height: 70px;
     width: 70px;
-    
+
 }
 
-header ul{
+header ul {
     display: flex;
     flex: 4;
     justify-content: right;
     padding-right: 4vw;
-    gap: 4vw;
+    gap: 3vw;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
 }
-header ul li{
+
+header ul li {
     list-style: none;
+    cursor: pointer;
+}
+
+header ul li:hover {
+    color: brown;
+}
+
+.hero-section {
+    height: 88vh;
+    width: 100%;
+    background-image: url(/public/images/bg1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 0px 130px;
+}
+
+.hero-section h1 {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.hero-section p {
+    color: #FFF;
+
+}
+
+.homebtn{
+    display: flex;
+    gap: 45px;
+}
+.homebtn button {
+    color: #F3F3F3;
+    background-color: #0E0E0E;
+    height: 65.654px;
+    width: 270.748px;
+    border-radius: 14.525px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+.product-heading{
+    height: 10vh;
+    text-align: center;
+    
+}
+.products{
+    display: grid;
+    grid-template-columns: 33vw 33vw 33vw;
+    grid-template-rows: 30vh 30vh 30vh;
+    text-align: center;
+    
+}
+.products img{
+    height: 200px;
+    width: 300px;   
+}
+.products h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+.products h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.find-us{
+    display: flex;
+    justify-content: space-around;
+}
+.storelist h1{
+    font-size: 35px;
+}
+.storelist p{
+    font-size: 20px;
 }
