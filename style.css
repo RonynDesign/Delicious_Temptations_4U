@@ -154,15 +154,57 @@ header ul li:hover {
 .contact-us {
     display: flex;
     justify-content: space-around;
+    background-color: #16df8b;
     height: 100vh;
     width: auto;
 }
 
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .contact-us-form {
-    height: 440px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 470px;
     width: 600px;
     padding: 20px;
     border: 3px #8C2FDF;
     border-style: solid;
     margin: 0px 20px;
+}
+
+.contact{
+    text-align: start;
+    flex: 1;
+    
+}
+.contact-card{
+    height: 60%;
+    width: 70%;
+    background-color: #f0a2a2;
+    display: flex;
+    justify-content: space-around;
+    padding: 5vh 5vw
+}
+.btn2{
+    color: #F3F3F3;
+    background-color: #0E0E0E;
+    height: 52.653999999999996px;
+    width: 208.748px;
+    border-radius: 14.525px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 1.5vh;
+}
+.form input{
+    height: 4vh;
+    width: 20vw;
+    border: 2px solid purple;
+    border-radius: 10px;
+    padding: 0 15px;
 }
