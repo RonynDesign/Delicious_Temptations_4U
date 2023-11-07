@@ -84,11 +84,12 @@ header ul li:hover {
 
 }
 
-.homebtn{
+.homebtn {
     display: flex;
     gap: 45px;
 }
-.homebtn button {
+
+.btn1 {
     color: #F3F3F3;
     background-color: #0E0E0E;
     height: 65.654px;
@@ -98,38 +99,71 @@ header ul li:hover {
     font-style: normal;
     font-weight: 600;
 }
-.product-heading{
+
+.product-heading {
     height: 10vh;
     text-align: center;
-    
+
 }
-.products{
+
+.products {
     display: grid;
     grid-template-columns: 33vw 33vw 33vw;
     grid-template-rows: 30vh 30vh 30vh;
     text-align: center;
-    
+
 }
-.products img{
+
+.products img {
     height: 200px;
-    width: 300px;   
+    width: 300px;
 }
-.products h1{
+
+.products h1 {
     font-size: 20px;
     font-weight: 700;
 }
-.products h2{
+
+.products h2 {
     font-size: 20px;
     font-weight: 500;
 }
 
-.find-us{
+.find-us {
     display: flex;
     justify-content: space-around;
+    height: 100vh;
+    width: auto;
 }
-.storelist h1{
+
+.storelist h1 {
     font-size: 35px;
 }
-.storelist p{
+
+.storelist p {
     font-size: 20px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    width: auto;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    width: auto;
+}
+
+.contact-us-form {
+    height: 440px;
+    width: 600px;
+    padding: 20px;
+    border: 3px #8C2FDF;
+    border-style: solid;
+    margin: 0px 20px;
+
 }
