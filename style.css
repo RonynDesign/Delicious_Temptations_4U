@@ -16,7 +16,8 @@ header {
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
-
+    position: sticky;
+    
 }
 
 #icon {
@@ -52,6 +53,12 @@ header ul li {
 header ul li:hover {
     color: brown;
 }
+
+header ul a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
 
 .hero-section {
     height: 88vh;
