@@ -5,32 +5,34 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* body{
-    width: 100vw;
-} */
+body{
+    background-image: url(./public/images/bg.png);
+    background-repeat: no-repeat;
+}
 
 header {
-    height: 12vh;
+    /* height: 15vh; */
     width: 100%;
-    background-color: #F3DBDE;
+    /* background-color: #F3DBDE; */
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
-    position: sticky;
+    /* position: sticky; */
     
 }
 
 #icon {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    flex: 2;
+    padding: 20px 200px
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
 
 }
 
-header img {
-    height: 70px;
-    width: 70px;
+#icon img {
+    height: auto;
+    width: 50%;
 
 }
 
@@ -61,25 +63,25 @@ header ul a:link, a:visited, a:hover, a:active{
 
 
 .hero-section {
-    height: 88vh;
+    height: 85vh;
     width: 100%;
-    background-image: url(./public/images/bg1.png);
-    background-position: center;
+    /* background-image: url(./public/images/bg1.png); */
+    /* background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .hero-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    gap: 25px;
+    align-items: center;
+    gap: 30px;
     padding: 0px 130px;
 }
 
 .hero-section h1 {
-    color: #FFF;
+    color: #5e2f1e;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 58px;
     font-style: normal;
@@ -87,7 +89,8 @@ header ul a:link, a:visited, a:hover, a:active{
 }
 
 .hero-section p {
-    color: #FFF;
+    color: #303030;
+    text-align: center;
 
 }
 
@@ -98,7 +101,7 @@ header ul a:link, a:visited, a:hover, a:active{
 
 .btn1 {
     color: #F3F3F3;
-    background-color: #0E0E0E;
+    background-color: #1f1f1f;
     height: 65.654px;
     width: 270.748px;
     border-radius: 14.525px;
@@ -108,38 +111,89 @@ header ul a:link, a:visited, a:hover, a:active{
 }
 
 .product-heading {
-    height: 10vh;
-    text-align: center;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    font-size: 20px;
 
 }
 
 .products {
-    display: grid;
-    grid-template-columns: 33vw 33vw 33vw;
-    grid-template-rows: 30vh 30vh 30vh;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 350px;
+    height: 70vh;
 
+}
+.product1{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 428px;
+    gap: 10px;
+}
+.product2{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 428px;
+    gap: 10px;
 }
 
 .products img {
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 428px;
+    object-fit: cover;
+    border-radius: 13px;
 }
 
 .products h1 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
+    text-align: center;
 }
 
-.products h2 {
-    font-size: 20px;
+.products p {
+    font-size: 16px;
     font-weight: 500;
+}
+
+.showcase{
+    height: 70vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.showcase-frame{
+    height: 60vh;
+    width: 79vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(130, 69, 48, 0.7)
+}
+.image-gallery{
+    height: 55vh;
+    width: 75vw;
+    overflow: scroll;
+    display: flex;
+    gap: 20px;
+}
+.image-gallery img{
+    border-radius: 10px;
 }
 
 .find-us {
     display: flex;
     justify-content: space-around;
-    height: 100vh;
+    height: auto;
     width: auto;
 }
 
@@ -154,14 +208,13 @@ header ul a:link, a:visited, a:hover, a:active{
 .about {
     display: flex;
     justify-content: space-around;
-    height: 100vh;
+    height: 80vh;
     width: auto;
 }
 
 .contact-us {
     display: flex;
     justify-content: space-around;
-    background-color: #16df8b;
     height: 100vh;
     width: auto;
 }
@@ -192,7 +245,7 @@ header ul a:link, a:visited, a:hover, a:active{
 .contact-card{
     height: 60%;
     width: 70%;
-    background-color: #f0a2a2;
+    background-color: #f1f1f1;
     display: flex;
     justify-content: space-around;
     padding: 5vh 5vw
