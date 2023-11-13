@@ -8,6 +8,7 @@
 body{
     background-image: url(./public/images/bg.png);
     background-repeat: no-repeat;
+    background-color: #ffe2ae;
 }
 
 header {
@@ -118,7 +119,15 @@ header ul a:link, a:visited, a:hover, a:active{
     padding: 20px;
     margin: auto;
     font-size: 20px;
-
+}
+.showreel-heading {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    font-size: 20px;
 }
 
 .products {
@@ -189,33 +198,46 @@ header ul a:link, a:visited, a:hover, a:active{
 .image-gallery img{
     border-radius: 10px;
 }
-
-.find-us {
+.video{
     display: flex;
+    height: 40vh;
+    width: 100%;
     justify-content: space-around;
-    height: auto;
-    width: auto;
+    align-items: center;
+    margin-bottom: 8vh;
 }
-
-.storelist h1 {
-    font-size: 35px;
+.ytembed{
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
-
-.storelist p {
-    font-size: 20px;
+.video p{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    height: 40vh;
+    width: 40%;
+    text-align: center;
+    padding: 50px 0;
 }
 
 .about {
     display: flex;
     justify-content: space-around;
-    height: 80vh;
+    height: auto;
     width: auto;
+    margin-bottom: 8vh;
+}
+
+.about-section{
+    height: 50%;
+    width: 50%;
 }
 
 .contact-us {
     display: flex;
     justify-content: space-around;
-    height: 100vh;
+    height: 70vh;
     width: auto;
 }
 
@@ -226,24 +248,25 @@ header ul a:link, a:visited, a:hover, a:active{
 }
 
 .contact-us-form {
-    flex: 1;
+    /* flex: 1; */
     display: flex;
     flex-direction: column;
     height: 470px;
-    width: 600px;
+    width: 500px;
     padding: 20px;
-    border: 3px #8C2FDF;
-    border-style: solid;
+    /* border: 3px #2fdf8d;
+    border-style: solid; */
     margin: 0px 20px;
 }
 
 .contact{
     text-align: start;
     flex: 1;
+    padding: 40px 0px;
     
 }
 .contact-card{
-    height: 60%;
+    height: 80%;
     width: 70%;
     background-color: #f1f1f1;
     display: flex;
@@ -264,7 +287,8 @@ header ul a:link, a:visited, a:hover, a:active{
 .form input{
     height: 4vh;
     width: 20vw;
-    border: 2px solid purple;
+    border: 2px solid rgb(100, 100, 100);
     border-radius: 10px;
     padding: 0 15px;
 }
+
