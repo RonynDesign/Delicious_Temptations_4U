@@ -233,6 +233,10 @@ header ul a:link, a:visited, a:hover, a:active{
     height: 50%;
     width: 50%;
 }
+.map-selection iframe{
+    border: 2px solid #5e2f1e;
+    border-radius: 25px;
+}
 
 .contact-us {
     display: flex;
@@ -248,7 +252,7 @@ header ul a:link, a:visited, a:hover, a:active{
 }
 
 .contact-us-form {
-    /* flex: 1; */
+    flex: 0.5;
     display: flex;
     flex-direction: column;
     height: 470px;
