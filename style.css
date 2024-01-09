@@ -333,16 +333,24 @@ header ul a:link, a:visited, a:hover, a:active{
       }
     
       .showcase-frame, .image-gallery, .about, .about-section, .contact-us-form, .contact-card {
-        width: 100%;
+        width: 90%;
       }
     
       .form input {
         width: 100%;
       }
+
+      .video, iframe{
+        width: 90%;
+      }
+
+      .about{
+        width: 90%;
+      }
   }
   
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 500px) {
     header {
         padding: 10px 10px;
       }
@@ -378,6 +386,9 @@ header ul a:link, a:visited, a:hover, a:active{
         width: 100%;
         height: auto;
       }
+
+      .video, iframe{
+        width: 90%;
     
       .showcase-frame, .image-gallery, .about, .about-section, .contact-us-form, .contact-card {
         width: 100%;
